@@ -1,5 +1,4 @@
 // first program in go, lets se how it *go*es :)
-
 package main
 
 import (
@@ -11,13 +10,10 @@ import (
 )
 
 func main() {
-	fmt.Println("Advent of Code: Day 2")
-	
 	var x int = 0
 	var depth int = 0
 
 	// testData := []string{"forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"}
-	
 	input, _ := readLines("input.txt")
 
 	for i := range input {
