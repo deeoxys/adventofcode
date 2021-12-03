@@ -6,9 +6,9 @@ We'll have to see how far I get.
 
 ## Languages
 - [x] Python
-- [ ] Java
 - [x] GO
-- [ ] Rust
+- [x] Rust
+- [ ] Java
 - [ ] C/C++
 - [ ] V
 - [ ] NodeJS
