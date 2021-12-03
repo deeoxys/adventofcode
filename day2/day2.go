@@ -14,14 +14,14 @@ func main() {
 	var depth int = 0
 
 	// testData := []string{"forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"}
-	
+
 	input, _ := readLines("input.txt")
 	for i := range input {
 		part1(input[i], &x, &depth)
 		// printCoords(&x, &depth)
 	}
 	result1 := x * depth
-	
+
 	x = 0
 	depth = 0
 	var aim int = 0
@@ -30,7 +30,7 @@ func main() {
 		// printCoords(&x, &depth)
 	}
 	result2 := x * depth
-	
+
 	fmt.Println("Part 1 result: ", result1)
 	fmt.Println("Part 2 result: ", result2)
 }
@@ -40,7 +40,7 @@ func part1(raw string, x *int, depth *int) {
 		value, _ := strconv.Atoi(raw[8:])
 		*x += value
 		fmt.Println("Moved", value, "spaces forward!")
-		
+
 	} else if strings.Contains(raw, "up") {
 		value, _ := strconv.Atoi(raw[3:])
 		*depth -= value
@@ -59,16 +59,16 @@ func part2(raw string, x *int, depth *int, aim *int) {
 		*x += value
 		*depth += (value * *aim)
 		fmt.Println("Moved", value, "spaces forward!")
-		
+
 	} else if strings.Contains(raw, "up") {
 		value, _ := strconv.Atoi(raw[3:])
 		*aim -= value
-		fmt.Println("Aimed", value, " up!")
+		fmt.Println("Aimed", value, "up!")
 
 	} else if strings.Contains(raw, "down") {
 		value, _ := strconv.Atoi(raw[5:])
 		*aim += value
-		fmt.Println("Aimed", value, " down!")
+		fmt.Println("Aimed", value, "down!")
 	}
 }
 
