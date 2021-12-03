@@ -6,7 +6,7 @@ We'll have to see how far I get.
 
 ## Languages
 - [x] Python
-- [x] GO
+- [x] Go
 - [x] Rust
 - [ ] Java
 - [ ] C/C++
