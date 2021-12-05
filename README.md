@@ -9,8 +9,8 @@ We'll have to see how far I get.
 - [x] Go
 - [x] Rust
 - [x] Java
+- [x] V
 - [ ] C/C++
-- [ ] V
 - [ ] NodeJS
 - [ ] Kotlin?
 - [ ] Pascal?
