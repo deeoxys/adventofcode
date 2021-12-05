@@ -8,7 +8,7 @@ We'll have to see how far I get.
 - [x] Python
 - [x] Go
 - [x] Rust
-- [ ] Java
+- [x] Java
 - [ ] C/C++
 - [ ] V
 - [ ] NodeJS
