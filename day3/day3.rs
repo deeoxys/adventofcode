@@ -45,7 +45,7 @@ fn main() {
             
             if char_index < x {
                 char_index += 1;
-            } // ELSE wasnt working here, todo find out what that was all about
+            } // rust compiler moment
             if char_index >= x {
                 char_index = 0;
             }
@@ -60,8 +60,6 @@ fn main() {
 
     // STAGE 3: determine if there are more ones or zeros for each vector
     let mut more_ones_than_zeros = vec![false; 12];
-    
-    // more_ones_than_zeros[0] = foo(&index_0);
     
     let mut ones = 0;
     let mut zeros = 0;
@@ -108,15 +106,12 @@ fn main() {
     println!("\nDecimal gamma_rate multiplied by decimal epsilon_rate: {}", decimal_gamma_rate * decimal_epsilon_rate);
 }
 
-// convert binary vector to decimal
-// we are hard-coded for 5 BITS!
 fn bin_to_dec(v: &[i32]) -> i32 {
     let mut decimal = 0;
     
     let mut column = 0;
     for binary in v.iter() {
         if *binary == 1 {
-            // figure out which column we are at and then add the appropriate value
             match column {
                 0 => decimal += 2048,
                 1 => decimal += 1024,

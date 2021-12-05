@@ -12,13 +12,11 @@ import (
 func main() {
 	var x int = 0
 	var depth int = 0
-
 	// testData := []string{"forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"}
 
 	input, _ := readLines("input.txt")
 	for i := range input {
 		part1(input[i], &x, &depth)
-		// printCoords(&x, &depth)
 	}
 	result1 := x * depth
 
@@ -27,7 +25,6 @@ func main() {
 	var aim int = 0
 	for i := range input {
 		part2(input[i], &x, &depth, &aim)
-		// printCoords(&x, &depth)
 	}
 	result2 := x * depth
 

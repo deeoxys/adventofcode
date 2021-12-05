@@ -1,5 +1,4 @@
 # Part 1
-# Read in data
 input = []
 with open("day1_input.txt") as f:
     for line in f:
@@ -7,7 +6,6 @@ with open("day1_input.txt") as f:
         input.append(int(stripped))
     f.close()
 
-# Analyse data
 def part1(list):
     last = -1
     results = []
