@@ -15,7 +15,7 @@ public class day4 {
         ArrayList<String> lines = new ArrayList<>();
 
         try {
-            File f = new File("/win/Users/mrkyl/code_projects/advent_of_code/day4/input.txt");
+            File f = new File("input.txt");
             Scanner sc = new Scanner(f);
 
             while (sc.hasNextLine()) {
