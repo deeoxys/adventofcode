@@ -10,6 +10,7 @@ We'll have to see how far I get.
 - [x] Rust
 - [x] Java
 - [x] V
+- [x] Ruby
 - [ ] C/C++
 - [ ] NodeJS
 - [ ] Kotlin?
