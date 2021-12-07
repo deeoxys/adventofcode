@@ -11,8 +11,8 @@ We'll have to see how far I get.
 - [x] Java
 - [x] V
 - [x] Ruby
-- [ ] C/C++
-- [ ] NodeJS
-- [ ] Kotlin?
-- [ ] Pascal?
+- [x] C++
+- [ ] C
+- [ ] JavaScript
+- [ ] Kotlin
 <br>etc...
