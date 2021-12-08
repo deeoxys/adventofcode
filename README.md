@@ -12,7 +12,7 @@ We'll have to see how far I get.
 - [x] V
 - [x] Ruby
 - [x] C++
-- [x] JavaScript (NodeJS)
+- [x] JS
 - [ ] C
 - [ ] Kotlin
 <br>etc...
