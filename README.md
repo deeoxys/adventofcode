@@ -13,6 +13,9 @@ We'll have to see how far I get.
 - [x] Ruby
 - [x] C++
 - [x] JS
-- [ ] C
-- [ ] Kotlin
+- [x] C
+- [ ] Kotlin?
+- [ ] R?
+- [ ] Bash?
+- [ ] VBS?
 <br>etc...
