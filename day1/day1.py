@@ -1,4 +1,4 @@
-# Advent of Code 2021: Day 1
+# Advent of Code 2021: Day 1 🐍
 
 test_data = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
 input = []
