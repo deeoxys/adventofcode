@@ -1,13 +1,7 @@
-# First program with ruby.
-# Advent of code day 6.
-
-# data = [3, 4, 3, 1, 2]
-
+# Advent of Code: Day 6 💎
+test_data = [3, 4, 3, 1, 2]
 dir = File.dirname(__FILE__)
 data = File.readlines("#{dir}/input.txt", chomp: true).first.split(",").map(&:to_i)
-
-# puts "Initial state: #{data}"
-
 def foo(list, day)
     if day == 80
         return list
@@ -21,10 +15,10 @@ def foo(list, day)
         end
         
         day += 1
-        # puts "After #{day} day(s): #{list}"
         foo(list, day)
     end
 end
-
-new_data = foo(data, 0)
-puts new_data.size
+print "Part 1 result (Test data): "
+puts foo(test_data, 0).size
+print "Part 1 result: "
+puts foo(data, 0).size
