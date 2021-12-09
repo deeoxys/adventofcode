@@ -1,8 +1,8 @@
+// Advent of Code: Day 9 🇨
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 #define rows 100    // make these 5 and 10 if u want to run test data~ 😌
 #define columns 100
 
