@@ -1,4 +1,4 @@
-// Advent of Code: Day 2
+// Advent of Code: Day 2 🐹
 package main
 
 import (
