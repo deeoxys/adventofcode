@@ -1,6 +1,8 @@
-# Part 1
+# Advent of Code 2021: Day 1
+
+test_data = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
 input = []
-with open("day1_input.txt") as f:
+with open("input.txt") as f:
     for line in f:
         stripped = line.strip()
         input.append(int(stripped))
@@ -9,7 +11,6 @@ with open("day1_input.txt") as f:
 def part1(list):
     last = -1
     results = []
-    
     for i in range(len(list)):
         if i == 0:
             results.append("N/A - no previous measurement")
@@ -23,24 +24,18 @@ def part1(list):
     return results
 
 def count(list):
-    data = list
     count = 0
     for i in range(len(list)):
         if list[i] == "increased":
             count += 1
     return count
 
-print(str(count(part1(input))))
-
-# Part 2
 def part2(list):
     last = -1
     results = []
-
     for i in range(len(list)):
         if i < (len(list) - 2):
             total = list[i] + list[i + 1] + list[i + 2]
-
             if i == 0:
                 results.append("N/A - no previous measurement")
                 last = total
@@ -54,7 +49,7 @@ def part2(list):
                 last = total
     return results
 
-# testData = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
-
-print(str(count(part2(input))))
-
+print("Part 1 (Test Data): " + str(count(part1(test_data))))
+print("Part 2 (Test Data): " + str(count(part2(test_data))))
+print("Part 1 :" + str(count(part1(input))))
+print("Part 2 :" + str(count(part2(input))))
