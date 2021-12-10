@@ -12,7 +12,7 @@ Looking to use as many languages as possible, we'll have to see how far I get.
 - [x] Day 7 🇨++
 - [x] Day 8 📜
 - [x] Day 9 🇨
-- [ ] Day 10
+- [x] Day 10 🇨#
 - [ ] Day 11
 - [ ] Day 12
 - [ ] Day 13
