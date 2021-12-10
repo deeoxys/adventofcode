@@ -33,7 +33,7 @@ def part2(list):
                 last = total
     return results
 
-test_data, input = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263], 
+test_data, input = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263], []
 with open("input.txt") as f:
     for line in f:
         input.append(int(line.strip()))
